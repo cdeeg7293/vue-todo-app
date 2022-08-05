@@ -3,7 +3,8 @@
     <h1>To-Do List</h1>
     <ul>
       <li>
-        <to-do-item label="To-do Item"></to-do-item>
+        <to-do-item label="To-do Item" :done="true"></to-do-item>
+        <to-do-item label="another one" :done="false"></to-do-item>
       </li>
     </ul>
   </div>
